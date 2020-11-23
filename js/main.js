@@ -2,6 +2,7 @@ let ubicacionPrincipal = window.pageYOffset; //0
 
   AOS.init();
 
+/*
 window.addEventListener("scroll", function(){
     let desplazamientoActual = window.pageYOffset; //180
     if(ubicacionPrincipal >= desplazamientoActual){ // 200 > 180
@@ -11,7 +12,7 @@ window.addEventListener("scroll", function(){
     }
     ubicacionPrincipal= desplazamientoActual; //200
 
-})
+})*/
 
 // Menu
 

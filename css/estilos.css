@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.main-header{
+    width: 100%;
+    left: 0; 
+    top: 0; 
+    position: fixed;
+}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -45,7 +52,7 @@ h1 {
 header::before {
     content: "";
     display: block;
-    margin-bottom: 80px;
+    margin-bottom: 80px;   
 }
 
 
@@ -57,7 +64,9 @@ nav {
     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
     position: fixed;
     top: 0;
+    bottom: 0;
     z-index: 100;
+
     transition: ease-in-out 0.5s;
 }
 
@@ -80,7 +89,17 @@ nav {
     vertical-align: top;
 }
 
+a.a-head:hover{
+    color : #000000 !important;
+}
+
+a.a-head{
+    
+
+}
+
 .enlaces-header {
+
     font-weight: 800;
     transition: ease-in-out 0.5s;
 }
@@ -187,6 +206,7 @@ nav {
     transition: 0.5s;
 }
 
+
 .articulo:hover {
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
 }
@@ -220,6 +240,9 @@ nav {
     color: #5D6678;
     font-weight: 400;
     text-decoration: none;
+    bottom: 20px;
+    position: fixed;
+
 }
 
 .articulo>a:hover {
@@ -539,7 +562,9 @@ footer {
         width: 200px;
     }
 
+
     .enlaces-header {
+
         position: fixed;
         background: #667db6;
         /* fallback for old browsers */
