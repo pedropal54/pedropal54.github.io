@@ -150,7 +150,6 @@ a.a-head:hover{
 
 .contenido-header>img {
     width: 250px;
-    animation: ease-in animat 1s;
 }
 
 @keyframes animat {
@@ -165,7 +164,7 @@ a.a-head:hover{
 
 
 .textos-header>h1 {
-    margin: 0 0 0 0px;
+    margin: 0 0 0 0;
     font-weight: bold;
     font-family: 'Helvetica','Verdana','Monaco',sans-serif;
 
@@ -186,7 +185,7 @@ a.a-head:hover{
     background: #1FDE82;
     text-align: center;
     color: #fff;
-    padding: 12px 0;
+    padding: 12px 0 12px 0;
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
@@ -217,6 +216,7 @@ a.a-head:hover{
     flex-wrap: wrap;
     margin-top: 60px;
     justify-content: space-around;
+
 }
 
 .articulo {
@@ -273,7 +273,6 @@ a.a-head:hover{
     text-decoration: none;
     bottom: 20px;
     position: fixed;
-
 }
 
 .articulo>a:hover {
@@ -409,14 +408,15 @@ a.a-head:hover{
     width: 500px;
 }
 
-.box-skills {
-    margin: 30px 30px 0 0;
+.contacto{
+    padding: 0 100px 0 0;
 }
+
 
 .box-skills h4 {
     font-size: 24px;
     background: #f2f2f2;
-    width: 350px;
+    width: 450px;
     border-radius: 6px;
     padding: 10px 0 10px 15px;
     margin-bottom: 10px;
