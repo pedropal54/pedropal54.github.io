@@ -326,8 +326,11 @@ a.a-head:hover{
 
 .textos-questions-sub {
     margin: 50px 0 0 300px;
+}
 
-    
+.imag{
+    padding-right: 50px;
+    padding-bottom: 20px;
 }
 
 /* Results */
@@ -368,6 +371,14 @@ a.a-head:hover{
 .numbers .number p {
     color: #f2f5fc;
     font-weight: 300;
+    position:absolute;
+    left: 10px;
+    bottom:15px;
+    right:10px
+}
+
+.boton {
+    border: none;
 }
 
 .results-text {
@@ -670,4 +681,6 @@ footer {
         width: 95%;
         margin-bottom: 40px;
     }
+
+
 }

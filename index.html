@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Pedro Palencia Quiñones</title>
+    
     <link rel="icon" type="image/png" href="img/titulo.png">
+    
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -22,7 +25,7 @@
                 </div>
                 <div class="enlaces-header">
                     <a class="a-head" href="index.html">Inicio</a>
-                    <a class="a-head" href="#sobremi">Sobre mi</a>
+                    <a class="a-head" class="nav-link js-scroll-trigger" href="#sobremi">Sobre mi</a>
                     <a class="a-head" href="#form-acad">Formación</a>
                     <a class="a-head" href="#conocimientos">Conocimientos</a>
                     <a class="a-head" href="#habilidades">Habilidades</a>
@@ -45,10 +48,9 @@
             </section>
         </div>
     </header>
-    <section class="about-us" id="sobremi">
+    <a name="sobremi"><section class="about-us"></a>
         <section class="contenedor1">
-            <br>
-            <br>
+            <br><br>
             <h1>Sobre mí</h1>
         </section>
         <section class="contenedor1">
@@ -77,7 +79,7 @@
         </section>
     </section>
     
-    <section class="about-us" id="form-acad">
+    <a name="form-acad"><section class="about-us"></a>
         <div class="contenedor1">
             <br>
             <br>
@@ -86,6 +88,7 @@
                 <div class="articulo-masform" data-aos="zoom-in-right">
                     <img src="img/esi.png" width="150" height="50" >
                     <h3>UCLM / ESI </h3>
+                    <br>
                     <p>Matriculado en el Grado de Ingeniería Informática en la Escuela Superior de Informática (<a href="https://esi.uclm.es/" target="_blank">ESI</a>) por la Universidadde Castilla la Mancha (<a href="https://www.uclm.es/" target="_blank">UCLM</a>). Seleccioné la intensificación
                     de las Tecnologías de la Información (TI). Actualmente en cuarto año de carrera. 
                     <br>
@@ -95,6 +98,7 @@
                 <div class="articulo-masform" data-aos="zoom-in-right">
                     <img src="img/logo-balbuena.png" width="50" height="50" >
                     <h3>Instituto Bernardo Balbuena</h3>
+                    <br>
                     <p>Finalización de la ESO y del Ballicherato (modalidad Ciencias Tecnológicas) hasta la respectiva selectividad 
                     (<a href="https://www.iesbernardodebalbuena.es/" target="_blank">Bernardo Balbuena</a>). Grandes notas en Matemáticas y Física. 
                     <br>
@@ -104,8 +108,8 @@
                 <div class="articulo-masform" data-aos="zoom-in-right">
                     <img src="img/logo-trinitarios.png" width="50" height="50" >
                     <h3>Colegio Santísima Trinidad</h3>
-                    <p>Desde los tres hasta los trece años estuve (<a href="https://valdepenas.centrosfest.net/" target="_blank">Trinitarios</a>). Finalicé segundo curso de 
-                    educación secundaria obligatoria y después me cambié al instituto.</p>
+                    <br>
+                    <p>Desde los tres hasta los trece años cursé en este colegio(<a href="https://valdepenas.centrosfest.net/" target="_blank">Trinitarios</a>). Finalicé segundo curso de educación secundaria obligatoria y después me cambié al instituto.</p>
                 </div>
                 
             </div>
@@ -125,7 +129,7 @@
         </div>
     </section>
 
-    <section class="questions contenedor" id="conocimientos">
+    <a name="conocimientos"><section class="questions contenedor"></a>
         <section class="textos-questions">
             <h1>Conocimientos</h1>
         </section>
@@ -239,18 +243,14 @@
         </div>
     </div>
 
-    <section class="textos-questions-sub" id="habilidades">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+    <a name="habilidades"><section class="textos-questions-sub"></a>
+            <br><br><br><br><br>
         <h1 class="cabecer" >Mis habilidades</h1>
     </section>
 
 
     <section class="contenedor1 services">
-        <img src="img/uno.svg" alt="">
+        <img src="img/uno.svg" data-aos="zoom-out-up" data-aos-duration="2000">
         <div class="box-skills">
             <h4><i class="far fa-check-circle"></i> Idioma: B2 Inglés</h4> 
             <h4><i class="far fa-check-circle"></i> Buena coordinación con compañeros</h4>
@@ -266,12 +266,8 @@
 
 
     <section class="results"> <!-- LO AZUL -->
-        <section class="textos-questions-sub" id="portfolio">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <a name="portfolio"><section class="textos-questions-sub"></a>
+            <br><br><br><br><br>
             <h1 class="cabeceraPortfolio" >Portfolio</h1>
         </section>
         
@@ -280,23 +276,27 @@
             <section class="numbers">
                 <div class="number" data-aos="zoom-in-left">
                     <h4 style="vertical-align:middle;margin:0 20px 0 20px">Hosval</h4>
+                    <br>
                     <img src="img/hosval.png" width="100" height="100" style="vertical-align:middle;margin:0 0 20px 50px">
-                    <p>Aquí iria breve descripción</p>
+                    <p align="justify">Hosval - Aplicación móvil que sirve para gestionar la sobrecarga de pacientes en el hospital.</p>
                 </div>
                 <div class="number" data-aos="zoom-in-left">
                     <h4>Tu-Rural</h4>
                     <img src="img/turural.png" width="100" height="100" style="vertical-align:middle;margin:0 0 20px 45px">
-                    <p>Aquí iria breve descripción</p>
+                    <br><br><br><br>
+                    <p align="justify">Tu-rural - Aplicación móvil que sirve para un gestor de rutas en la comunidad donde se muestran rutas, guías, grupos, promociones...</p>
                 </div>
                 <div class="number" data-aos="zoom-in-left">
                     <h4>Amor Gatuno</h4>
                     <img src="img/gatuno.png" width="100" height="100" style="vertical-align:middle;margin:0 0 20px 50px">
-                    <p>Aquí iria breve descripción</p>
+                    <br><br><br>
+                    <p align="justify">Asociación Amor Gatuno - Proyecto de diseño y desarrollo web para una asociación de gatos en Valdepeñas.</p>
                 </div>
                 <div class="number" data-aos="zoom-in-left">
                     <h4>Sockets</h4>
+                    <br><br>
                     <img src="img/tcp.png" width="100" height="100" style="vertical-align:middle;margin:0 0 20px 45px">
-                    <p>Aquí iria breve descripción</p>
+                    <p align="justify">Sockets TCP/UDP - Comunicación de procesos usando sockets UDP y TCP mediante el protocolo TFTP.</p>
                 </div>
             </section>
             <section class="results-text">
@@ -309,12 +309,9 @@
 
     
 
-
     <footer>
-
-        
         <section class="partFooter"> 
-            <h1 class="contacto" id="contacto">Contacto</h1>
+            <a name="contacto"><h1 class="contacto">Contacto</h1></a>
             <br>
             <br>
             <a href="index.html"><img src="img/contacto.png" width="200" height="200"></a>
@@ -335,9 +332,9 @@
             <br>
             <h4>Redes sociales</h4>
             <div class="social-media">
-                    <a href="https://www.linkedin.com/in/pedro-palencia-qui%C3%B1ones-9225b9200/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/pedropalencia54/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/pedro.palenciaquinones/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <button class="boton"><a href="https://www.linkedin.com/in/pedro-palencia-qui%C3%B1ones-9225b9200/" target="_blank"><i class="fa fa-linkedin"></i></a></button>
+                <button class="boton"><a href="https://www.instagram.com/pedropalencia54/" target="_blank"><i class="fa fa-instagram"></i></a></button>
+                <button class="boton"><a href="https://www.facebook.com/pedro.palenciaquinones/" target="_blank"><i class="fa fa-facebook-f"></i></a></button>
             </div>
         </div>
     </footer>
