@@ -1,6 +1,5 @@
 AUN QUEDA:
 
-- ¿MÁS INFORMACIÓN? NO ME CONVENCE NI EL TEXTO QUE HAY DENTRO
-- pagina portfolio
-- movimiento de rapido a lento al hacer click en la cabecera
-- enlaces a la misma pagina mal
+- Acabar portfolio (index.html)
+- Acabar portfolio (portfolio.html)
+- Últimos retoques
