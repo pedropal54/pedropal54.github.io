@@ -1,5 +1,3 @@
 AUN QUEDA:
 
-- Acabar portfolio (index.html)
-- Acabar portfolio (portfolio.html)
-- Últimos retoques
+- Acabar CV pdf
